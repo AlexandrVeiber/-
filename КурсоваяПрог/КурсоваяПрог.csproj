@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69EBA5F0-4871-4A86-B3FA-A4B6B1EDE142}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>КурсоваяПрог</RootNamespace>
+    <AssemblyName>КурсоваяПрог</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Интерфейс\Бригады\AddBrigadeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\Бригады\AddBrigadeForm.Designer.cs">
+      <DependentUpon>AddBrigadeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Бригады\AddWorkerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\Бригады\AddWorkerForm.Designer.cs">
+      <DependentUpon>AddWorkerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Бригады\BrigadeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\Бригады\BrigadeForm.Designer.cs">
+      <DependentUpon>BrigadeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Бригады\EditBrigadeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\Бригады\EditBrigadeForm.Designer.cs">
+      <DependentUpon>EditBrigadeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Бригады\EditWorkerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\Бригады\EditWorkerForm.Designer.cs">
+      <DependentUpon>EditWorkerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Меню\AddProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\Меню\AddProjectForm.Designer.cs">
+      <DependentUpon>AddProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Меню\EditProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\Меню\EditProjectForm.Designer.cs">
+      <DependentUpon>EditProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Меню\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\Меню\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Интерфейс\склад\WarehouseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\склад\WarehouseForm.Designer.cs">
+      <DependentUpon>WarehouseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\склад\запасы стройматериалов\AddMaterialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\склад\запасы стройматериалов\AddMaterialForm.Designer.cs">
+      <DependentUpon>AddMaterialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\склад\Поставки\AddDeliveryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\склад\Поставки\AddDeliveryForm.Designer.cs">
+      <DependentUpon>AddDeliveryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\склад\поставщики\AddSupplierForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\склад\поставщики\AddSupplierForm.Designer.cs">
+      <DependentUpon>AddSupplierForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Упр. обьектами\EstimateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\Упр. обьектами\EstimateForm.Designer.cs">
+      <DependentUpon>EstimateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Упр. обьектами\RequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\Упр. обьектами\RequestForm.Designer.cs">
+      <DependentUpon>RequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Упр. обьектами\WorkRecordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Интерфейс\Упр. обьектами\WorkRecordForm.Designer.cs">
+      <DependentUpon>WorkRecordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Классы\Brigade.cs" />
+    <Compile Include="Классы\Builder.cs" />
+    <Compile Include="Классы\CompletedWork.cs" />
+    <Compile Include="Классы\ConstructionMaterial.cs" />
+    <Compile Include="Классы\ConstructionObject.cs" />
+    <Compile Include="Классы\DataManager.cs" />
+    <Compile Include="Классы\Delivery.cs" />
+    <Compile Include="Классы\Estimate.cs" />
+    <Compile Include="Классы\Material.cs" />
+    <Compile Include="Классы\Project.cs" />
+    <Compile Include="Классы\Request.cs" />
+    <Compile Include="Классы\Supplier.cs" />
+    <Compile Include="Классы\WorkDetail.cs" />
+    <EmbeddedResource Include="Интерфейс\Бригады\AddBrigadeForm.resx">
+      <DependentUpon>AddBrigadeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\Бригады\AddWorkerForm.resx">
+      <DependentUpon>AddWorkerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\Бригады\BrigadeForm.resx">
+      <DependentUpon>BrigadeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\Бригады\EditBrigadeForm.resx">
+      <DependentUpon>EditBrigadeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\Бригады\EditWorkerForm.resx">
+      <DependentUpon>EditWorkerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\Меню\AddProjectForm.resx">
+      <DependentUpon>AddProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\Меню\EditProjectForm.resx">
+      <DependentUpon>EditProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\Меню\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Интерфейс\склад\WarehouseForm.resx">
+      <DependentUpon>WarehouseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\склад\запасы стройматериалов\AddMaterialForm.resx">
+      <DependentUpon>AddMaterialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\склад\Поставки\AddDeliveryForm.resx">
+      <DependentUpon>AddDeliveryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\склад\поставщики\AddSupplierForm.resx">
+      <DependentUpon>AddSupplierForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\Упр. обьектами\EstimateForm.resx">
+      <DependentUpon>EstimateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\Упр. обьектами\RequestForm.resx">
+      <DependentUpon>RequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Интерфейс\Упр. обьектами\WorkRecordForm.resx">
+      <DependentUpon>WorkRecordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
