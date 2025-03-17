@@ -1,0 +1,134 @@
+[
+  {
+    "construction_object": null,
+    "materials": []
+  },
+  {
+    "construction_object": null,
+    "materials": [
+      {
+        "supplier": null,
+        "SupplierName": null,
+        "name": "цемент",
+        "unit": "кг",
+        "quantity": 12.0,
+        "price": 0.0,
+        "stock": 0.0
+      }
+    ]
+  },
+  {
+    "construction_object": {
+      "id": 1,
+      "name": "МЕГА",
+      "address": "ТОП",
+      "materials": []
+    },
+    "materials": [
+      {
+        "supplier": null,
+        "SupplierName": null,
+        "name": "цемент",
+        "unit": "кг",
+        "quantity": 23.0,
+        "price": 0.0,
+        "stock": 0.0
+      }
+    ]
+  },
+  {
+    "construction_object": {
+      "id": 1,
+      "name": "МЕГА",
+      "address": "ТОП",
+      "materials": []
+    },
+    "materials": [
+      {
+        "supplier": null,
+        "SupplierName": null,
+        "name": "цеменнт",
+        "unit": "ке",
+        "quantity": 34.0,
+        "price": 0.0,
+        "stock": 0.0
+      }
+    ]
+  },
+  {
+    "construction_object": {
+      "id": 1,
+      "name": "МЕГА",
+      "address": "ТОП",
+      "materials": []
+    },
+    "materials": [
+      {
+        "supplier": null,
+        "SupplierName": null,
+        "name": "цеменнт",
+        "unit": "ке",
+        "quantity": 34.0,
+        "price": 0.0,
+        "stock": 0.0
+      }
+    ]
+  },
+  {
+    "construction_object": {
+      "id": 1,
+      "name": "МЕГА",
+      "address": "ТОП",
+      "materials": []
+    },
+    "materials": [
+      {
+        "supplier": null,
+        "SupplierName": null,
+        "name": "цеменнт",
+        "unit": "ке",
+        "quantity": 23.0,
+        "price": 0.0,
+        "stock": 0.0
+      }
+    ]
+  },
+  {
+    "construction_object": {
+      "id": 1,
+      "name": "МЕГА",
+      "address": "ТОП",
+      "materials": []
+    },
+    "materials": [
+      {
+        "supplier": null,
+        "SupplierName": null,
+        "name": "цеменнт",
+        "unit": "ке",
+        "quantity": 32.0,
+        "price": 0.0,
+        "stock": 0.0
+      }
+    ]
+  },
+  {
+    "construction_object": {
+      "id": 2,
+      "name": "Аура",
+      "address": "Орджоникидзе",
+      "materials": []
+    },
+    "materials": [
+      {
+        "supplier": null,
+        "SupplierName": null,
+        "name": "кцук",
+        "unit": "куцк",
+        "quantity": 34.0,
+        "price": 0.0,
+        "stock": 0.0
+      }
+    ]
+  }
+]
