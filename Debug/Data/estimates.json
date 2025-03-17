@@ -1,0 +1,39 @@
+[
+  {
+    "projectName": "тестПроект",
+    "materials": [
+      {
+        "supplier": null,
+        "SupplierName": null,
+        "name": "ауцйа",
+        "unit": "кг",
+        "quantity": 100.0,
+        "price": 0.0,
+        "stock": 0.0
+      }
+    ]
+  },
+  {
+    "projectName": "ТРЦ \"Аура\"",
+    "materials": [
+      {
+        "supplier": null,
+        "SupplierName": null,
+        "name": "Оконные рамы",
+        "unit": "шт",
+        "quantity": 100.0,
+        "price": 0.0,
+        "stock": 0.0
+      },
+      {
+        "supplier": null,
+        "SupplierName": null,
+        "name": "Двери",
+        "unit": "шт",
+        "quantity": 15.0,
+        "price": 0.0,
+        "stock": 0.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "name": "тестПроект",
+    "address": "Адрес",
+    "status": "Завершен",
+    "start_date": "2024-05-21T14:04:59",
+    "end_date": "2025-01-22T14:04:59.6990468+03:00",
+    "brigades": [
+      {
+        "name": "Бригада1",
+        "foreman": {
+          "id": 1,
+          "full_name": "Руководитель1",
+          "gender": "Не указано",
+          "birth_date": "2025-01-22T14:06:32.1718345+03:00",
+          "address": "Не указан",
+          "experience": 0,
+          "specialties": []
+        },
+        "workers": [
+          {
+            "id": 7,
+            "full_name": "Сафронов А.В.",
+            "gender": "Мужской",
+            "birth_date": "2025-01-25T19:36:50.9403832+03:00",
+            "address": "г. Пермь ул. Озерная 43",
+            "experience": 1,
+            "specialties": [
+              "Техник",
+              "слесарь"
+            ]
+          },
+          {
+            "id": 8,
+            "full_name": "Волков П.С",
+            "gender": "Мужской",
+            "birth_date": "2025-11-01T19:37:48",
+            "address": "г. Ростов",
+            "experience": 3,
+            "specialties": [
+              "Инженер"
+            ]
+          }
+        ],
+        "assigned_project": null,
+        "date": "2025-01-22T14:06:32.1718345+03:00"
+      },
+      {
+        "name": "ТестБригада",
+        "foreman": {
+          "id": 3,
+          "full_name": "РуководительТест",
+          "gender": "Не указано",
+          "birth_date": "2025-01-22T14:08:34.4248244+03:00",
+          "address": "Не указан",
+          "experience": 0,
+          "specialties": []
+        },
+        "workers": [
+          {
+            "id": 19,
+            "full_name": "Пчелкин И.С",
+            "gender": "Мужской",
+            "birth_date": "2025-01-04T14:16:35",
+            "address": "Новосибирск",
+            "experience": 1,
+            "specialties": [
+              "Инженер"
+            ]
+          },
+          {
+            "id": 9,
+            "full_name": "Ложков П.А",
+            "gender": "Мужской",
+            "birth_date": "2024-05-02T19:39:12",
+            "address": "Новосибирск",
+            "experience": 2,
+            "specialties": [
+              "Инженер",
+              "проекторовщик"
+            ]
+          }
+        ],
+        "assigned_project": null,
+        "date": "2025-01-22T14:08:34.4248244+03:00"
+      },
+      {
+        "name": "ОтделкаКрыши",
+        "foreman": {
+          "id": 5,
+          "full_name": "Федоров Георгий",
+          "gender": "Не указано",
+          "birth_date": "2025-01-22T14:10:41.1210605+03:00",
+          "address": "Не указан",
+          "experience": 0,
+          "specialties": []
+        },
+        "workers": [
+          {
+            "id": 10,
+            "full_name": "Генцов В.С",
+            "gender": "Мужской",
+            "birth_date": "2024-12-10T19:40:04",
+            "address": "Уфа",
+            "experience": 2,
+            "specialties": [
+              "Инженер"
+            ]
+          }
+        ],
+        "assigned_project": null,
+        "date": "2025-01-22T14:10:41.1210605+03:00"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ТРЦ \"Аура\"",
+    "address": "г. Новосибирс ул. Военная 5",
+    "status": "В процессе",
+    "start_date": "2019-11-08T14:10:50",
+    "end_date": "2025-01-22T14:10:50.5681285+03:00",
+    "brigades": [
+      {
+        "name": "БригадаАура",
+        "foreman": {
+          "id": 11,
+          "full_name": "ФИО",
+          "gender": "Не указано",
+          "birth_date": "2025-01-22T14:11:01.4014981+03:00",
+          "address": "Не указан",
+          "experience": 0,
+          "specialties": []
+        },
+        "workers": [
+          {
+            "id": 7,
+            "full_name": "ИМЯ",
+            "gender": "Мужской",
+            "birth_date": "2024-12-31T14:11:17",
+            "address": "АДРЕС",
+            "experience": 1,
+            "specialties": [
+              "Специальности"
+            ]
+          }
+        ],
+        "assigned_project": null,
+        "date": "2025-01-22T14:11:01.4014981+03:00"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "ТЦ \"Континент\"",
+    "address": "г. Новосибирск ул. Тролейная ",
+    "status": "Завершен",
+    "start_date": "2019-06-06T19:42:03",
+    "end_date": "2025-01-25T19:42:03.039354+03:00",
+    "brigades": []
+  },
+  {
+    "id": 4,
+    "name": "Пекарняя",
+    "address": "ул. Титова",
+    "status": "Отменен",
+    "start_date": "2025-01-02T19:43:01",
+    "end_date": "2025-01-25T19:43:01.7336173+03:00",
+    "brigades": []
+  }
+]

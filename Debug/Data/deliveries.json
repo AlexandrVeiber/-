@@ -1,0 +1,122 @@
+[
+  {
+    "supplier": {
+      "id": 0,
+      "name": "ПоставщикПесок",
+      "address": "г.Набер.Челны",
+      "director_name": "Тихонов Анатолий Сергеевич",
+      "director_phone": "8990456241",
+      "bank": "ВижуалБанк",
+      "account": "12345678901234567890",
+      "inn": "678654391823"
+    },
+    "delivery_date": "2025-02-12T16:19:50.6683635+03:00",
+    "received_materials": [
+      {
+        "supplier": {
+          "id": 0,
+          "name": "ПоставщикПесок",
+          "address": "г.Набер.Челны",
+          "director_name": "Тихонов Анатолий Сергеевич",
+          "director_phone": "8990456241",
+          "bank": "ВижуалБанк",
+          "account": "12345678901234567890",
+          "inn": "678654391823"
+        },
+        "SupplierName": "ПоставщикПесок",
+        "name": "песок",
+        "unit": "кг",
+        "quantity": 32.0,
+        "price": 143090.0,
+        "stock": 0.0
+      }
+    ],
+    "SupplierName": "ПоставщикПесок"
+  },
+  {
+    "supplier": {
+      "id": 0,
+      "name": "Поставщик1",
+      "address": "Адрес1",
+      "director_name": "ФИО",
+      "director_phone": "8994236714",
+      "bank": "ВижуалБанк",
+      "account": "12345678901234567890",
+      "inn": "6236235729"
+    },
+    "delivery_date": "2025-02-12T16:22:19.552922+03:00",
+    "received_materials": [
+      {
+        "supplier": {
+          "id": 0,
+          "name": "Поставщик1",
+          "address": "Адрес1",
+          "director_name": "ФИО",
+          "director_phone": "8994236714",
+          "bank": "ВижуалБанк",
+          "account": "12345678901234567890",
+          "inn": "6236235729"
+        },
+        "SupplierName": "Поставщик1",
+        "name": "плиты",
+        "unit": "кг",
+        "quantity": 123.0,
+        "price": 51245.0,
+        "stock": 0.0
+      },
+      {
+        "supplier": {
+          "id": 0,
+          "name": "Поставщик1",
+          "address": "Адрес1",
+          "director_name": "ФИО",
+          "director_phone": "8994236714",
+          "bank": "ВижуалБанк",
+          "account": "12345678901234567890",
+          "inn": "6236235729"
+        },
+        "SupplierName": "Поставщик1",
+        "name": "плиты_1",
+        "unit": "шт",
+        "quantity": 101.0,
+        "price": 32323.0,
+        "stock": 0.0
+      }
+    ],
+    "SupplierName": "Поставщик1"
+  },
+  {
+    "supplier": {
+      "id": 0,
+      "name": "ПоставщикТрубы",
+      "address": "г. Челябинск",
+      "director_name": "Краснов Олег Игнатьевич",
+      "director_phone": "8994356823",
+      "bank": "ТБанк",
+      "account": "19876543211234567889",
+      "inn": "8765432100"
+    },
+    "delivery_date": "2025-02-01T16:23:20",
+    "received_materials": [
+      {
+        "supplier": {
+          "id": 0,
+          "name": "ПоставщикТрубы",
+          "address": "г. Челябинск",
+          "director_name": "Краснов Олег Игнатьевич",
+          "director_phone": "8994356823",
+          "bank": "ТБанк",
+          "account": "19876543211234567889",
+          "inn": "8765432100"
+        },
+        "SupplierName": "ПоставщикТрубы",
+        "name": "труба",
+        "unit": "шт",
+        "quantity": 30.0,
+        "price": 150000.0,
+        "stock": 0.0
+      }
+    ],
+    "SupplierName": "ПоставщикТрубы"
+  }
+]
